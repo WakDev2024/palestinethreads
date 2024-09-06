@@ -1,0 +1,20 @@
+<?php
+/**
+ * Title: Product Filter
+ * Slug: fashion-vista/product-filter
+ * Categories: fashion-vista
+ *
+ * @package Fashion Vista
+ * @since 1.0.0
+ */
+
+?>
+<?php if (function_exists('wc_booster_pro_load') && class_exists('WooCommerce')) { ?>
+<!-- wp:wc-booster/section {"block_id":"wc-booster-section-block-instance-5-187d69b8-3da8-4da6-8a8d-79cb73c19176","padding":{"activeUnit":"px","isLinkActive":false,"properties":["top","right","bottom","left"],"responsiveViews":["desktop","tablet","mobile"],"units":["px","em"],"range":{"min":10,"max":300},"values":{"desktop":[0,0,80,0],"tablet":[0,0,80,0],"mobile":[0,0,80,0]}},"margin":{"activeUnit":"px","isLinkActive":false,"properties":["top","right","bottom","left"],"responsiveViews":["desktop","tablet","mobile"],"units":["px","em"],"range":{"min":10,"max":300},"values":{"desktop":[0,null,0,null],"tablet":[0,0,0,0],"mobile":[0,0,0,0]}},"containerType":"full-width","containerWidth":{"activeUnit":"px","range":{"min":1,"max":2000},"values":{"desktop":1300,"tablet":1024,"mobile":640},"units":["px"]}} -->
+<div id="wc-booster-section-block-instance-5-187d69b8-3da8-4da6-8a8d-79cb73c19176" class="wp-block-wc-booster-section"><div class="wc-booster-full-width wc-booster-section-wrapper"><div class="wc-booster-section-overlay"></div><div class="wc-booster-section-inner"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"0px","top":"0px"}},"typography":{"lineHeight":"1"}},"fontSize":"x-large"} -->
+<h2 class="wp-block-heading has-text-align-center has-x-large-font-size" style="margin-top:0px;margin-bottom:0px;line-height:1"><?php echo esc_html__( 'Our Products', 'fashion-vista' ); ?></h2>
+<!-- /wp:heading -->
+
+<!-- wp:wc-booster-pro/carousel-category-product {"block_id":"wc-booster-pro-carousel-product-category-block-92a7fd82-ab05-4f24-97c3-0fd8e988396a","titleTypo":{"fontFamily":"","fontSize":{"units":["px","em","rem"],"activeUnit":"px","values":{"desktop":20,"tablet":20,"mobile":20}},"fontWeight":"500","lineHeight":{"activeUnit":"px","units":["px"],"values":{"desktop":28,"tablet":28,"mobile":28}}},"priceTypo":{"fontFamily":"","fontSize":{"units":["px","em","rem"],"activeUnit":"px","values":{"desktop":16,"tablet":16,"mobile":16},"range":{"min":0,"max":100}},"fontWeight":"500","lineHeight":{"activeUnit":"","units":[""],"values":{"desktop":1.2,"tablet":1.2,"mobile":1.2}},"":{"activeUnit":"px","range":{"min":0,"max":100},"values":{"desktop":16,"tablet":16,"mobile":14},"units":["px","em","rem"]}},"padding":{"activeUnit":"px","isLinkActive":false,"properties":["top","right","bottom","left"],"responsiveViews":["desktop","tablet","mobile"],"units":["px","rem"],"values":{"desktop":[40,0,0,0],"tablet":[40,0,0,0],"mobile":[40,0,0,0]}},"imageHeight":{"activeUnit":"px","range":{"min":50,"max":500},"values":{"desktop":350,"tablet":350,"mobile":350},"units":["px"]},"bgColor":"","arrowRightBgColor":"#000","arrowRightColor":"#ffffff","arrowLeftColor":"#ffffff","arrowRadius":50,"imageRadius":1,"slidesToShow":{"activeUnit":"","range":{"min":1,"max":10},"values":{"desktop":4,"tablet":3,"mobile":1},"units":[""]},"enableRating":false,"arrowPosition":{"activeUnit":"%","range":{"min":-100,"max":2000},"values":{"desktop":40,"tablet":40,"mobile":40},"units":["%","px","em"]},"prevArrowPosition":"left","arrowPrevPosition":{"activeUnit":"px","range":{"min":0,"max":2000},"values":{"desktop":0,"tablet":0,"mobile":0},"units":["%","px","em"]},"arrowNextPosition":{"activeUnit":"px","range":{"min":0,"max":2000},"values":{"desktop":0,"tablet":0,"mobile":0},"units":["%","px","em"]},"arrowSize":{"activeUnit":"px","isLinkActive":true,"properties":["height","width"],"responsiveViews":["desktop","tablet","mobile"],"units":["px","em"],"values":{"desktop":[37,37],"tablet":[37,37],"mobile":[35,35]}}} /--></div></div></div>
+<!-- /wp:wc-booster/section -->
+<?php } ?>
