@@ -1,531 +1,483 @@
-[2024-09-04 23:21:00] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
-[2024-09-04 23:21:00] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
-[2024-09-04 23:21:00] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
-[2024-09-04 23:21:05] [class-ss-archive-creation-job.php:136] Current task: setup
-[2024-09-04 23:21:05] [class-ss-archive-creation-job.php:153] Performing task: setup
-[2024-09-04 23:21:05] [class-ss-task.php:44] Status message: [setup] Setting up
-[2024-09-04 23:21:05] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060\
-[2024-09-04 23:21:05] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/palestinethreads/
-[2024-09-04 23:21:05] [class-ss-setup-task.php:137] File C:\xampp\htdocs\palestinethreads\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/palestinethreads/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
-[2024-09-04 23:21:05] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
-[2024-09-04 23:21:05] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-09-04 23:21:05] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-09-04 23:21:05] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
-[2024-09-04 23:21:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/
-[2024-09-04 23:21:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
-[2024-09-04 23:21:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:21:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8eb616ea22-nDDGhJ.tmp
-[2024-09-04 23:21:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/?simply_static_page=1
-[2024-09-04 23:21:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/?simply_static_page=1
-[2024-09-04 23:21:10] [class-ss-url-fetcher.php:103] Filesize: 84446 bytes
-[2024-09-04 23:21:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-09-04 23:21:10] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
-[2024-09-04 23:21:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8eb616ea22-nDDGhJ.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/index.html
-[2024-09-04 23:21:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:21:12] [class-ss-fetch-urls-task.php:159] Adding 20 URLs to the queue
-[2024-09-04 23:21:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:21:17] [class-ss-page.php:119] Checking Content Identical:371dc88ba999eddcccc1897926caa7a0b397c84a===. Value: FALSE
-[2024-09-04 23:21:17] [class-ss-fetch-urls-task.php:72] URL: C:/xampp/htdocs/palestinethreads/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
-[2024-09-04 23:21:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
-[2024-09-04 23:21:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:21:17] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
-[2024-09-04 23:21:18] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
-[2024-09-04 23:21:18] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-09-04 23:21:18] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-09-04 23:21:18] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-09-04 23:21:18] [class-ss-fetch-urls-task.php:69] Total pages: 22; Pages remaining: 20
-[2024-09-04 23:21:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads
-[2024-09-04 23:21:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 22
-[2024-09-04 23:21:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:21:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8eb6e42cd8-hcCdin.tmp
-[2024-09-04 23:21:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads?simply_static_page=3
-[2024-09-04 23:21:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads?simply_static_page=3
-[2024-09-04 23:21:18] [class-ss-url-fetcher.php:103] Filesize: 362 bytes
-[2024-09-04 23:21:18] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
-[2024-09-04 23:21:18] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-09-04 23:21:18] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/palestinethreads/
-[2024-09-04 23:21:18] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
-[2024-09-04 23:21:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/index.php/sample-page/
-[2024-09-04 23:21:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 22
-[2024-09-04 23:21:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:21:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8eb6e841d8-IPqMvV.tmp
-[2024-09-04 23:21:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/index.php/sample-page/?simply_static_page=4
-[2024-09-04 23:21:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/index.php/sample-page/?simply_static_page=4
-[2024-09-04 23:21:25] [class-ss-url-fetcher.php:103] Filesize: 60217 bytes
-[2024-09-04 23:21:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-09-04 23:21:25] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/sample-page/index.html
-[2024-09-04 23:21:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8eb6e841d8-IPqMvV.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/index.php/sample-page/index.html
-[2024-09-04 23:21:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:21:27] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
-[2024-09-04 23:21:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:21:28] [class-ss-page.php:119] Checking Content Identical:922cf921736e64d48d7f53f7aa10ad40d80c6bc8===. Value: FALSE
-[2024-09-04 23:21:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/index.php/2024/09/04/hello-world/
-[2024-09-04 23:21:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 22
-[2024-09-04 23:21:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:21:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8eb78d4133-TCP2QN.tmp
-[2024-09-04 23:21:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/index.php/2024/09/04/hello-world/?simply_static_page=5
-[2024-09-04 23:21:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/index.php/2024/09/04/hello-world/?simply_static_page=5
-[2024-09-04 23:21:36] [class-ss-url-fetcher.php:103] Filesize: 76844 bytes
-[2024-09-04 23:21:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-09-04 23:21:36] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/2024/09/04/hello-world/index.html
-[2024-09-04 23:21:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8eb78d4133-TCP2QN.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/index.php/2024/09/04/hello-world/index.html
-[2024-09-04 23:21:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:21:38] [class-ss-fetch-urls-task.php:159] Adding 22 URLs to the queue
-[2024-09-04 23:21:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:21:40] [class-ss-page.php:119] Checking Content Identical:e623982daf6b917170bf898b0b547f42f535bce9===. Value: FALSE
-[2024-09-04 23:21:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/index.php/author/hassanwakrimi1/
-[2024-09-04 23:21:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 22
-[2024-09-04 23:21:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:21:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8eb851b17c-7rBh7p.tmp
-[2024-09-04 23:21:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/index.php/author/hassanwakrimi1/?simply_static_page=6
-[2024-09-04 23:21:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/index.php/author/hassanwakrimi1/?simply_static_page=6
-[2024-09-04 23:21:48] [class-ss-url-fetcher.php:103] Filesize: 64123 bytes
-[2024-09-04 23:21:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-09-04 23:21:48] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/author/hassanwakrimi1/index.html
-[2024-09-04 23:21:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8eb851b17c-7rBh7p.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/index.php/author/hassanwakrimi1/index.html
-[2024-09-04 23:21:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:21:50] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
-[2024-09-04 23:21:51] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:21:51] [class-ss-page.php:119] Checking Content Identical:b7fa4d319cc6748a63f14c3fa6d6647b0693c13d===. Value: FALSE
-[2024-09-04 23:21:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/index.php/category/uncategorized/
-[2024-09-04 23:21:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 22
-[2024-09-04 23:21:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:21:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8eb9013426-ds39Mu.tmp
-[2024-09-04 23:21:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/index.php/category/uncategorized/?simply_static_page=7
-[2024-09-04 23:21:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/index.php/category/uncategorized/?simply_static_page=7
-[2024-09-04 23:21:56] [class-ss-url-fetcher.php:103] Filesize: 56733 bytes
-[2024-09-04 23:21:56] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-09-04 23:21:56] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-09-04 23:21:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8eb952f79c-RNIrhC.tmp
-[2024-09-04 23:21:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/index.php/category/uncategorized/
-[2024-09-04 23:22:01] [class-ss-url-fetcher.php:103] Filesize: 56733 bytes
-[2024-09-04 23:22:01] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-09-04 23:22:01] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-09-04 23:22:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
-[2024-09-04 23:22:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 22
-[2024-09-04 23:22:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8eb9a768fc-cAqGYj.tmp
-[2024-09-04 23:22:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=8
-[2024-09-04 23:22:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=8
-[2024-09-04 23:22:02] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
-[2024-09-04 23:22:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
-[2024-09-04 23:22:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
-[2024-09-04 23:22:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8eb9a768fc-cAqGYj.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
-[2024-09-04 23:22:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:02] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-04 23:22:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:02] [class-ss-page.php:119] Checking Content Identical:6804bf960deaa7ce32a32d8908cff9df0b157772===. Value: FALSE
-[2024-09-04 23:22:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
-[2024-09-04 23:22:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 22
-[2024-09-04 23:22:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8eb9aaaaf8-IJT7zf.tmp
-[2024-09-04 23:22:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=9
-[2024-09-04 23:22:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=9
-[2024-09-04 23:22:02] [class-ss-url-fetcher.php:103] Filesize: 66482 bytes
-[2024-09-04 23:22:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
-[2024-09-04 23:22:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
-[2024-09-04 23:22:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8eb9aaaaf8-IJT7zf.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
-[2024-09-04 23:22:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:02] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-04 23:22:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:02] [class-ss-page.php:119] Checking Content Identical:5d2c6cd3d8d2c412281237628073e451257716e4===. Value: FALSE
-[2024-09-04 23:22:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/images/windows.webp
-[2024-09-04 23:22:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 22
-[2024-09-04 23:22:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8eb9ae93e1-dnK7y5.tmp
-[2024-09-04 23:22:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=10
-[2024-09-04 23:22:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=10
-[2024-09-04 23:22:03] [class-ss-url-fetcher.php:103] Filesize: 126244 bytes
-[2024-09-04 23:22:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
-[2024-09-04 23:22:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/windows.webp
-[2024-09-04 23:22:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8eb9ae93e1-dnK7y5.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/wp-content/themes/twentytwentyfour/assets/images/windows.webp
-[2024-09-04 23:22:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-04 23:22:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:03] [class-ss-page.php:119] Checking Content Identical:18a3284f7b5ec684211dc355fe2ae56b30639a9e===. Value: FALSE
-[2024-09-04 23:22:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/wp-includes/blocks/navigation/view.min.js
-[2024-09-04 23:22:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 22
-[2024-09-04 23:22:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8eb9b3ab63-FJrpUD.tmp
-[2024-09-04 23:22:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/wp-includes/blocks/navigation/view.min.js?simply_static_page=11
-[2024-09-04 23:22:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/wp-includes/blocks/navigation/view.min.js?simply_static_page=11
-[2024-09-04 23:22:03] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
-[2024-09-04 23:22:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-09-04 23:22:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
-[2024-09-04 23:22:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8eb9b3ab63-FJrpUD.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/wp-includes/blocks/navigation/view.min.js
-[2024-09-04 23:22:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-04 23:22:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:03] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
-[2024-09-04 23:22:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/index.php/feed/
-[2024-09-04 23:22:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 22
-[2024-09-04 23:22:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8eb9b917ca-QoH3i1.tmp
-[2024-09-04 23:22:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/index.php/feed/?simply_static_page=12
-[2024-09-04 23:22:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/index.php/feed/?simply_static_page=12
-[2024-09-04 23:22:07] [class-ss-url-fetcher.php:103] Filesize: 1780 bytes
-[2024-09-04 23:22:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-09-04 23:22:07] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/feed/index.xml
-[2024-09-04 23:22:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8eb9b917ca-QoH3i1.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/index.php/feed/index.xml
-[2024-09-04 23:22:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:07] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
-[2024-09-04 23:22:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:08] [class-ss-page.php:119] Checking Content Identical:1d4f1e112c78becb399e452b8b8b8d8a08e3bb9c===. Value: FALSE
-[2024-09-04 23:22:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/index.php/comments/feed/
-[2024-09-04 23:22:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 22
-[2024-09-04 23:22:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8eba02473c-7zL4Rn.tmp
-[2024-09-04 23:22:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/index.php/comments/feed/?simply_static_page=13
-[2024-09-04 23:22:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/index.php/comments/feed/?simply_static_page=13
-[2024-09-04 23:22:13] [class-ss-url-fetcher.php:103] Filesize: 1712 bytes
-[2024-09-04 23:22:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-09-04 23:22:13] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/comments/feed/index.xml
-[2024-09-04 23:22:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8eba02473c-7zL4Rn.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/index.php/comments/feed/index.xml
-[2024-09-04 23:22:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:13] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
-[2024-09-04 23:22:13] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:13] [class-ss-page.php:119] Checking Content Identical:c59d2df7b7016be7840cff10c846d1f8ed3c210f===. Value: FALSE
-[2024-09-04 23:22:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/wp-includes/blocks/navigation/style.min.css
-[2024-09-04 23:22:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 22
-[2024-09-04 23:22:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8eba5dbad2-NMM74E.tmp
-[2024-09-04 23:22:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/wp-includes/blocks/navigation/style.min.css?simply_static_page=14
-[2024-09-04 23:22:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/wp-includes/blocks/navigation/style.min.css?simply_static_page=14
-[2024-09-04 23:22:13] [class-ss-url-fetcher.php:103] Filesize: 16384 bytes
-[2024-09-04 23:22:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-09-04 23:22:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
-[2024-09-04 23:22:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8eba5dbad2-NMM74E.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/wp-includes/blocks/navigation/style.min.css
-[2024-09-04 23:22:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:13] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-04 23:22:13] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:14] [class-ss-page.php:119] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
-[2024-09-04 23:22:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/wp-includes/blocks/image/style.min.css
-[2024-09-04 23:22:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 22
-[2024-09-04 23:22:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8eba632214-1WXGSs.tmp
-[2024-09-04 23:22:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/wp-includes/blocks/image/style.min.css?simply_static_page=15
-[2024-09-04 23:22:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/wp-includes/blocks/image/style.min.css?simply_static_page=15
-[2024-09-04 23:22:14] [class-ss-url-fetcher.php:103] Filesize: 6358 bytes
-[2024-09-04 23:22:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-09-04 23:22:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
-[2024-09-04 23:22:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8eba632214-1WXGSs.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/wp-includes/blocks/image/style.min.css
-[2024-09-04 23:22:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-04 23:22:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:14] [class-ss-page.php:119] Checking Content Identical:54a1fef5278908a5bbd901dea250139c6d992b6f===. Value: FALSE
-[2024-09-04 23:22:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/index.php/wp-json/
-[2024-09-04 23:22:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 22
-[2024-09-04 23:22:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8eba661205-bLHHkO.tmp
-[2024-09-04 23:22:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/index.php/wp-json/?simply_static_page=16
-[2024-09-04 23:22:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/index.php/wp-json/?simply_static_page=16
-[2024-09-04 23:22:17] [class-ss-url-fetcher.php:103] Filesize: 188837 bytes
-[2024-09-04 23:22:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
-[2024-09-04 23:22:17] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/index.html
-[2024-09-04 23:22:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8eba661205-bLHHkO.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/index.php/wp-json/index.html
-[2024-09-04 23:22:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-04 23:22:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:17] [class-ss-page.php:119] Checking Content Identical:34fb26e89f4b0aadb35906bb3935b240ce63a856===. Value: FALSE
-[2024-09-04 23:22:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/xmlrpc.php
-[2024-09-04 23:22:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 22
-[2024-09-04 23:22:17] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/palestinethreads/xmlrpc.php
-[2024-09-04 23:22:17] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-09-04 23:22:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/wp-includes/js/dist/interactivity.min.js
-[2024-09-04 23:22:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 22
-[2024-09-04 23:22:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8eba941ed0-gLFuXh.tmp
-[2024-09-04 23:22:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/wp-includes/js/dist/interactivity.min.js?simply_static_page=18
-[2024-09-04 23:22:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/wp-includes/js/dist/interactivity.min.js?simply_static_page=18
-[2024-09-04 23:22:17] [class-ss-url-fetcher.php:103] Filesize: 36686 bytes
-[2024-09-04 23:22:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-09-04 23:22:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
-[2024-09-04 23:22:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8eba941ed0-gLFuXh.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/wp-includes/js/dist/interactivity.min.js
-[2024-09-04 23:22:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-04 23:22:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:17] [class-ss-page.php:119] Checking Content Identical:39f2fd1115fdb171ea318c2ca240c7fe53df79b4===. Value: FALSE
-[2024-09-04 23:22:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
-[2024-09-04 23:22:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 22
-[2024-09-04 23:22:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8eba9e48d0-zS8Gpg.tmp
-[2024-09-04 23:22:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=19
-[2024-09-04 23:22:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=19
-[2024-09-04 23:22:17] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
-[2024-09-04 23:22:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-09-04 23:22:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
-[2024-09-04 23:22:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8eba9e48d0-zS8Gpg.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
-[2024-09-04 23:22:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-04 23:22:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:18] [class-ss-page.php:119] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: FALSE
-[2024-09-04 23:22:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
-[2024-09-04 23:22:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 22
-[2024-09-04 23:22:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8ebaa1a3bd-amOAY5.tmp
-[2024-09-04 23:22:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=20
-[2024-09-04 23:22:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=20
-[2024-09-04 23:22:18] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
-[2024-09-04 23:22:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-09-04 23:22:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
-[2024-09-04 23:22:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8ebaa1a3bd-amOAY5.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
-[2024-09-04 23:22:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-04 23:22:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:18] [class-ss-page.php:119] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
-[2024-09-04 23:22:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
-[2024-09-04 23:22:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 22
-[2024-09-04 23:22:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8ebaa477a1-edtzbo.tmp
-[2024-09-04 23:22:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=21
-[2024-09-04 23:22:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=21
-[2024-09-04 23:22:18] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
-[2024-09-04 23:22:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-09-04 23:22:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
-[2024-09-04 23:22:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8ebaa477a1-edtzbo.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
-[2024-09-04 23:22:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-04 23:22:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:18] [class-ss-page.php:119] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: FALSE
-[2024-09-04 23:22:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
-[2024-09-04 23:22:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 22
-[2024-09-04 23:22:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8ebaa6baf0-pyFgJu.tmp
-[2024-09-04 23:22:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=22
-[2024-09-04 23:22:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=22
-[2024-09-04 23:22:18] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
-[2024-09-04 23:22:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-09-04 23:22:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
-[2024-09-04 23:22:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8ebaa6baf0-pyFgJu.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
-[2024-09-04 23:22:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-04 23:22:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:18] [class-ss-page.php:119] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: FALSE
-[2024-09-04 23:22:18] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 22 pages/files
-[2024-09-04 23:22:18] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-09-04 23:22:21] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-09-04 23:22:21] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-09-04 23:22:21] [class-ss-fetch-urls-task.php:69] Total pages: 32; Pages remaining: 10
-[2024-09-04 23:22:21] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/wp-admin/
-[2024-09-04 23:22:21] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 32
-[2024-09-04 23:22:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8ebae06fde-BV8jXq.tmp
-[2024-09-04 23:22:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/wp-admin/?simply_static_page=23
-[2024-09-04 23:22:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/wp-admin/?simply_static_page=23
-[2024-09-04 23:22:24] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
-[2024-09-04 23:22:24] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
-[2024-09-04 23:22:24] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-09-04 23:22:24] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/palestinethreads/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fpalestinethreads%2Fwp-admin%2F%3Fsimply_static_page%3D23&reauth=1
-[2024-09-04 23:22:24] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
-[2024-09-04 23:22:24] [class-ss-fetch-urls-task.php:243] Creating a redirect page
-[2024-09-04 23:22:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
-[2024-09-04 23:22:24] [class-ss-page.php:119] Checking Content Identical:321dcce6e8dbd303dec5cb21cf05d2e15545f6ca===. Value: FALSE
-[2024-09-04 23:22:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/index.php/sample-page/feed/
-[2024-09-04 23:22:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 32
-[2024-09-04 23:22:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8ebb10ba9f-19RKtU.tmp
-[2024-09-04 23:22:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/index.php/sample-page/feed/?simply_static_page=24
-[2024-09-04 23:22:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/index.php/sample-page/feed/?simply_static_page=24
-[2024-09-04 23:22:27] [class-ss-url-fetcher.php:103] Filesize: 769 bytes
-[2024-09-04 23:22:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-09-04 23:22:27] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/sample-page/feed/index.xml
-[2024-09-04 23:22:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8ebb10ba9f-19RKtU.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/index.php/sample-page/feed/index.xml
-[2024-09-04 23:22:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:27] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
-[2024-09-04 23:22:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:27] [class-ss-page.php:119] Checking Content Identical:a428693cbdcfa8662e54ba104e0eba277e8ee05e===. Value: FALSE
-[2024-09-04 23:22:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/index.php/wp-json/wp/v2/pages/2
-[2024-09-04 23:22:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 32
-[2024-09-04 23:22:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8ebb3ba757-cJiBO6.tmp
-[2024-09-04 23:22:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/index.php/wp-json/wp/v2/pages/2?simply_static_page=25
-[2024-09-04 23:22:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/index.php/wp-json/wp/v2/pages/2?simply_static_page=25
-[2024-09-04 23:22:30] [class-ss-url-fetcher.php:103] Filesize: 3069 bytes
-[2024-09-04 23:22:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
-[2024-09-04 23:22:30] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/wp/v2/pages/2\index.html
-[2024-09-04 23:22:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8ebb3ba757-cJiBO6.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/index.php/wp-json/wp/v2/pages/2\index.html
-[2024-09-04 23:22:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-04 23:22:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:30] [class-ss-page.php:119] Checking Content Identical:96f4508e446c1d81bc5eb99551f03b4244e1b645===. Value: FALSE
-[2024-09-04 23:22:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/index.php/wp-json/oembed/1.0/embed
-[2024-09-04 23:22:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 32
-[2024-09-04 23:22:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8ebb6aebde-K0NTtf.tmp
-[2024-09-04 23:22:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/index.php/wp-json/oembed/1.0/embed?simply_static_page=26
-[2024-09-04 23:22:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/index.php/wp-json/oembed/1.0/embed?simply_static_page=26
-[2024-09-04 23:22:33] [class-ss-url-fetcher.php:103] Filesize: 115 bytes
-[2024-09-04 23:22:33] [class-ss-url-fetcher.php:119] http_status_code: 400 | content_type: application/json; charset=UTF-8
-[2024-09-04 23:22:33] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-09-04 23:22:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/wp-includes/js/comment-reply.min.js
-[2024-09-04 23:22:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 32
-[2024-09-04 23:22:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8ebb954e14-8VfT1F.tmp
-[2024-09-04 23:22:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/wp-includes/js/comment-reply.min.js?simply_static_page=27
-[2024-09-04 23:22:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/wp-includes/js/comment-reply.min.js?simply_static_page=27
-[2024-09-04 23:22:33] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
-[2024-09-04 23:22:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-09-04 23:22:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
-[2024-09-04 23:22:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8ebb954e14-8VfT1F.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/wp-includes/js/comment-reply.min.js
-[2024-09-04 23:22:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-04 23:22:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:33] [class-ss-page.php:119] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
-[2024-09-04 23:22:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/index.php/2024/09/04/hello-world/feed/
-[2024-09-04 23:22:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 32
-[2024-09-04 23:22:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8ebb978c25-CBmjlh.tmp
-[2024-09-04 23:22:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/index.php/2024/09/04/hello-world/feed/?simply_static_page=28
-[2024-09-04 23:22:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/index.php/2024/09/04/hello-world/feed/?simply_static_page=28
-[2024-09-04 23:22:35] [class-ss-url-fetcher.php:103] Filesize: 1745 bytes
-[2024-09-04 23:22:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-09-04 23:22:35] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/2024/09/04/hello-world/feed/index.xml
-[2024-09-04 23:22:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8ebb978c25-CBmjlh.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/index.php/2024/09/04/hello-world/feed/index.xml
-[2024-09-04 23:22:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:36] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
-[2024-09-04 23:22:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:36] [class-ss-page.php:119] Checking Content Identical:a3304a5c30786980717365177197c7ab27f7f344===. Value: FALSE
-[2024-09-04 23:22:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/wp-includes/css/dist/block-library/common.min.css
-[2024-09-04 23:22:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 32
-[2024-09-04 23:22:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8ebbc57045-GaSDbb.tmp
-[2024-09-04 23:22:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/wp-includes/css/dist/block-library/common.min.css?simply_static_page=29
-[2024-09-04 23:22:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/wp-includes/css/dist/block-library/common.min.css?simply_static_page=29
-[2024-09-04 23:22:36] [class-ss-url-fetcher.php:103] Filesize: 3472 bytes
-[2024-09-04 23:22:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-09-04 23:22:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
-[2024-09-04 23:22:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8ebbc57045-GaSDbb.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/wp-includes/css/dist/block-library/common.min.css
-[2024-09-04 23:22:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-04 23:22:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:36] [class-ss-page.php:119] Checking Content Identical:bbde28aa1f2f849a80a69d35191a0814c62648ca===. Value: FALSE
-[2024-09-04 23:22:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/index.php/wp-json/wp/v2/posts/1
-[2024-09-04 23:22:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 32
-[2024-09-04 23:22:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8ebbc8388b-ujeqjX.tmp
-[2024-09-04 23:22:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/index.php/wp-json/wp/v2/posts/1?simply_static_page=30
-[2024-09-04 23:22:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/index.php/wp-json/wp/v2/posts/1?simply_static_page=30
-[2024-09-04 23:22:39] [class-ss-url-fetcher.php:103] Filesize: 2080 bytes
-[2024-09-04 23:22:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
-[2024-09-04 23:22:39] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/wp/v2/posts/1\index.html
-[2024-09-04 23:22:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8ebbc8388b-ujeqjX.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/index.php/wp-json/wp/v2/posts/1\index.html
-[2024-09-04 23:22:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-04 23:22:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:39] [class-ss-page.php:119] Checking Content Identical:7e1efb735af21bc8af9908568b3a3bd23492a849===. Value: FALSE
-[2024-09-04 23:22:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/index.php/author/hassanwakrimi1/feed/
-[2024-09-04 23:22:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 32
-[2024-09-04 23:22:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8ebbfe72fb-zSdoCJ.tmp
-[2024-09-04 23:22:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/index.php/author/hassanwakrimi1/feed/?simply_static_page=31
-[2024-09-04 23:22:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/index.php/author/hassanwakrimi1/feed/?simply_static_page=31
-[2024-09-04 23:22:42] [class-ss-url-fetcher.php:103] Filesize: 1825 bytes
-[2024-09-04 23:22:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-09-04 23:22:42] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/author/hassanwakrimi1/feed/index.xml
-[2024-09-04 23:22:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8ebbfe72fb-zSdoCJ.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/index.php/author/hassanwakrimi1/feed/index.xml
-[2024-09-04 23:22:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:42] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
-[2024-09-04 23:22:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:42] [class-ss-page.php:119] Checking Content Identical:3bd1f746391f8cb9b776d4abb6864c2bc8d86b87===. Value: FALSE
-[2024-09-04 23:22:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/index.php/wp-json/wp/v2/users/1
-[2024-09-04 23:22:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 32
-[2024-09-04 23:22:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-04 23:22:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8ebc2a80a0-AkMQY7.tmp
-[2024-09-04 23:22:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/index.php/wp-json/wp/v2/users/1?simply_static_page=32
-[2024-09-04 23:22:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/index.php/wp-json/wp/v2/users/1?simply_static_page=32
-[2024-09-04 23:22:45] [class-ss-url-fetcher.php:103] Filesize: 692 bytes
-[2024-09-04 23:22:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
-[2024-09-04 23:22:45] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/wp/v2/users/1\index.html
-[2024-09-04 23:22:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8ebc2a80a0-AkMQY7.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060/index.php/wp-json/wp/v2/users/1\index.html
-[2024-09-04 23:22:45] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-04 23:22:45] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-04 23:22:45] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-04 23:22:45] [class-ss-page.php:119] Checking Content Identical:98de120ddf9b169f1ceaf1cc44120b11c118e608===. Value: FALSE
-[2024-09-04 23:22:45] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 22 of 32 pages/files
-[2024-09-04 23:22:45] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-09-04 23:22:48] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-09-04 23:22:48] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-09-04 23:22:48] [class-ss-fetch-urls-task.php:69] Total pages: 33; Pages remaining: 1
-[2024-09-04 23:22:48] [class-ss-fetch-urls-task.php:72] URL: http://localhost/palestinethreads/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fpalestinethreads%2Fwp-admin%2F%3Fsimply_static_page%3D23&reauth=1
-[2024-09-04 23:22:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 33
-[2024-09-04 23:22:48] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/palestinethreads/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fpalestinethreads%2Fwp-admin%2F%3Fsimply_static_page%3D23&reauth=1
-[2024-09-04 23:22:48] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-09-04 23:22:48] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 32 of 33 pages/files
-[2024-09-04 23:22:48] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-09-04 23:22:48] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-09-04 23:22:48] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-09-04 23:22:48] [class-ss-fetch-urls-task.php:69] Total pages: 33; Pages remaining: 0
-[2024-09-04 23:22:48] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 33 of 33 pages/files
-[2024-09-04 23:22:48] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
-[2024-09-04 23:22:48] [class-ss-archive-creation-job.php:136] Current task: generate_404
-[2024-09-04 23:22:48] [class-ss-archive-creation-job.php:153] Performing task: generate_404
-[2024-09-04 23:22:48] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
-[2024-09-04 23:22:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hassan\AppData\Local\Temp/66d8ebc8df2f2-vCcZgg.tmp
-[2024-09-04 23:22:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/palestinethreads/1725492169?simply_static_page=0
-[2024-09-04 23:22:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/palestinethreads/1725492169?simply_static_page=0
-[2024-09-04 23:22:52] [class-ss-url-fetcher.php:103] Filesize: 56733 bytes
-[2024-09-04 23:22:52] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-09-04 23:22:52] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
-[2024-09-04 23:22:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hassan\AppData\Local\Temp/66d8ebc8df2f2-vCcZgg.tmp to C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725492060\404/index.html
-[2024-09-04 23:22:52] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
-[2024-09-04 23:22:54] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
-[2024-09-04 23:22:55] [class-ss-page.php:119] Checking Content Identical:569b297501eb94ee2bbbdd0d37fae65b10a18007===. Value: FALSE
-[2024-09-04 23:22:55] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
-[2024-09-04 23:22:55] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
-[2024-09-04 23:22:55] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
-[2024-09-04 23:22:55] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
-[2024-09-04 23:22:55] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 27 of 27 files
-[2024-09-04 23:22:55] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/
-[2024-09-04 23:22:55] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/index.php/sample-page
-[2024-09-04 23:22:55] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/palestinethreads/index.php/sample-page
-[2024-09-04 23:22:55] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/index.php/2024/09/04/hello-world
-[2024-09-04 23:22:55] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/palestinethreads/index.php/2024/09/04/hello-world
-[2024-09-04 23:22:55] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/index.php/author/hassanwakrimi1
-[2024-09-04 23:22:55] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/palestinethreads/index.php/author/hassanwakrimi1
-[2024-09-04 23:22:55] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/wp-content/themes/twentytwentyfour/assets/images
-[2024-09-04 23:22:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/wp-content/themes/twentytwentyfour/assets/images
-[2024-09-04 23:22:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/wp-content/themes/twentytwentyfour/assets/images
-[2024-09-04 23:22:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/wp-includes/blocks/navigation
-[2024-09-04 23:22:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/index.php/feed
-[2024-09-04 23:22:56] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/palestinethreads/index.php/feed
-[2024-09-04 23:22:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/index.php/comments/feed
-[2024-09-04 23:22:56] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/palestinethreads/index.php/comments/feed
-[2024-09-04 23:22:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/wp-includes/blocks/navigation
-[2024-09-04 23:22:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/wp-includes/blocks/image
-[2024-09-04 23:22:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/index.php/wp-json
-[2024-09-04 23:22:56] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/palestinethreads/index.php/wp-json
-[2024-09-04 23:22:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/wp-includes/js/dist
-[2024-09-04 23:22:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/wp-content/themes/twentytwentyfour/assets/fonts/inter
-[2024-09-04 23:22:56] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/wp-content/themes/twentytwentyfour/assets/fonts/cardo
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/wp-content/themes/twentytwentyfour/assets/fonts/cardo
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/wp-content/themes/twentytwentyfour/assets/fonts/cardo
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/wp-admin
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/index.php/sample-page/feed
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/palestinethreads/index.php/sample-page/feed
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/index.php/wp-json/wp/v2/pages
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/palestinethreads/index.php/wp-json/wp/v2/pages
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/wp-includes/js
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/index.php/2024/09/04/hello-world/feed
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/palestinethreads/index.php/2024/09/04/hello-world/feed
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/wp-includes/css/dist/block-library
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/index.php/wp-json/wp/v2/posts
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/palestinethreads/index.php/wp-json/wp/v2/posts
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/index.php/author/hassanwakrimi1/feed
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/palestinethreads/index.php/author/hassanwakrimi1/feed
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/palestinethreads/index.php/wp-json/wp/v2/users
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/palestinethreads/index.php/wp-json/wp/v2/users
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:27. Processed Pages: 27
-[2024-09-04 23:22:57] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 27 of 27 files
-[2024-09-04 23:22:57] [trait-can-process-pages.php:103] Total pages: 27; Pages remaining: 0
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:257] Destination 404 Page found at C:/xampp/htdocs/palestinethreads\404\index.html
-[2024-09-04 23:22:57] [class-ss-transfer-files-locally-task.php:261] Success
-[2024-09-04 23:22:57] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://https://wakdev2024.github.io/palestinethreads/" target="_blank">https://https://wakdev2024.github.io/palestinethreads/</a>
-[2024-09-04 23:22:58] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
-[2024-09-04 23:22:58] [class-ss-archive-creation-job.php:136] Current task: wrapup
-[2024-09-04 23:22:58] [class-ss-archive-creation-job.php:153] Performing task: wrapup
-[2024-09-04 23:22:58] [class-ss-wrapup-task.php:22] Deleting temporary files
-[2024-09-04 23:22:58] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
-[2024-09-04 23:22:58] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
-[2024-09-04 23:22:58] [class-ss-archive-creation-job.php:197] Completing the job
-[2024-09-04 23:22:58] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:01:58
+[2024-09-08 00:39:20] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-09-08 00:39:20] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-09-08 00:39:20] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-09-08 00:39:46] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-09-08 00:39:46] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-09-08 00:39:46] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-09-08 00:39:47] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\palestinethreads/wp-content/uploads\simply-static\temp-files/simply-static-1-1725755960\
+[2024-09-08 00:39:49] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/palestinethreads/
+[2024-09-08 00:39:49] [class-ss-setup-task.php:137] File C:\xampp\htdocs\palestinethreads\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/palestinethreads/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-09-08 00:39:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/animate.css/animate-config.json
+[2024-09-08 00:39:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/animate.css/animate.css
+[2024-09-08 00:39:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/animate.css/animate.min.css
+[2024-09-08 00:39:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/animations/animations.min.css
+[2024-09-08 00:39:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.js
+[2024-09-08 00:39:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js
+[2024-09-08 00:39:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.js
+[2024-09-08 00:39:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js
+[2024-09-08 00:39:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/color-thief/color-thief.min.js
+[2024-09-08 00:39:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/dialog/dialog.js
+[2024-09-08 00:39:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js
+[2024-09-08 00:39:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.css
+[2024-09-08 00:39:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css
+[2024-09-08 00:39:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.js
+[2024-09-08 00:39:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js
+[2024-09-08 00:39:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.css
+[2024-09-08 00:39:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.min.css
+[2024-09-08 00:39:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/e-select2/js/e-select2.full.js
+[2024-09-08 00:39:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/e-select2/js/e-select2.full.min.js
+[2024-09-08 00:39:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.css
+[2024-09-08 00:39:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css
+[2024-09-08 00:39:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/eicons/eicons.json
+[2024-09-08 00:39:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot
+[2024-09-08 00:39:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg
+[2024-09-08 00:39:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf
+[2024-09-08 00:39:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff
+[2024-09-08 00:39:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2
+[2024-09-08 00:39:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.css
+[2024-09-08 00:39:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.js
+[2024-09-08 00:39:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css
+[2024-09-08 00:39:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.js
+[2024-09-08 00:39:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.css
+[2024-09-08 00:39:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css
+[2024-09-08 00:39:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.css
+[2024-09-08 00:39:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css
+[2024-09-08 00:39:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.css
+[2024-09-08 00:39:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css
+[2024-09-08 00:39:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.css
+[2024-09-08 00:39:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css
+[2024-09-08 00:39:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.css
+[2024-09-08 00:39:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css
+[2024-09-08 00:39:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.css
+[2024-09-08 00:39:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css
+[2024-09-08 00:39:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/css/svg-with-js.css
+[2024-09-08 00:39:57] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/css/svg-with-js.min.css
+[2024-09-08 00:39:57] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.css
+[2024-09-08 00:39:57] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css
+[2024-09-08 00:39:59] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.eot
+[2024-09-08 00:39:59] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.svg
+[2024-09-08 00:40:01] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.ttf
+[2024-09-08 00:40:02] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff
+[2024-09-08 00:40:02] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2
+[2024-09-08 00:40:04] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/FontAwesome.otf
+[2024-09-08 00:40:04] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/js/brands.js
+[2024-09-08 00:40:04] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/js/regular.js
+[2024-09-08 00:40:04] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/js/solid.js
+[2024-09-08 00:40:04] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.js
+[2024-09-08 00:40:04] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js
+[2024-09-08 00:40:04] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/json/brands.json
+[2024-09-08 00:40:04] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/json/regular.json
+[2024-09-08 00:40:04] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/json/solid.json
+[2024-09-08 00:40:04] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/migration/mapping.js
+[2024-09-08 00:40:05] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.eot
+[2024-09-08 00:40:05] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.svg
+[2024-09-08 00:40:05] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.ttf
+[2024-09-08 00:40:05] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff
+[2024-09-08 00:40:05] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2
+[2024-09-08 00:40:05] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.eot
+[2024-09-08 00:40:05] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.svg
+[2024-09-08 00:40:05] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.ttf
+[2024-09-08 00:40:05] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff
+[2024-09-08 00:40:05] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff2
+[2024-09-08 00:40:05] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.eot
+[2024-09-08 00:40:06] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.svg
+[2024-09-08 00:40:06] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.ttf
+[2024-09-08 00:40:06] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff
+[2024-09-08 00:40:06] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2
+[2024-09-08 00:40:06] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/hover/hover.css
+[2024-09-08 00:40:06] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/hover/hover.min.css
+[2024-09-08 00:40:06] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/imagesloaded/imagesloaded.js
+[2024-09-08 00:40:06] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/imagesloaded/imagesloaded.min.js
+[2024-09-08 00:40:06] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/inline-editor/js/inline-editor.js
+[2024-09-08 00:40:06] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/inline-editor/js/inline-editor.min.js
+[2024-09-08 00:40:07] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/jquery-easing/jquery-easing.js
+[2024-09-08 00:40:07] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/jquery-easing/jquery-easing.min.js
+[2024-09-08 00:40:07] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/jquery-hover-intent/jquery-hover-intent.js
+[2024-09-08 00:40:07] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/jquery-hover-intent/jquery-hover-intent.min.js
+[2024-09-08 00:40:07] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.js
+[2024-09-08 00:40:07] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js
+[2024-09-08 00:40:07] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/nouislider/nouislider.js
+[2024-09-08 00:40:07] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/nouislider/nouislider.min.js
+[2024-09-08 00:40:07] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/nprogress/nprogress.js
+[2024-09-08 00:40:07] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/nprogress/nprogress.min.js
+[2024-09-08 00:40:08] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/perfect-scrollbar/js/perfect-scrollbar.js
+[2024-09-08 00:40:08] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js
+[2024-09-08 00:40:08] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/pickr/pickr.min.js
+[2024-09-08 00:40:08] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/pickr/themes/monolith.min.css
+[2024-09-08 00:40:08] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/share-link/share-link.js
+[2024-09-08 00:40:08] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js
+[2024-09-08 00:40:08] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.css
+[2024-09-08 00:40:08] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css
+[2024-09-08 00:40:08] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/swiper/swiper.js
+[2024-09-08 00:40:08] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js
+[2024-09-08 00:40:09] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.css
+[2024-09-08 00:40:09] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css
+[2024-09-08 00:40:09] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.js
+[2024-09-08 00:40:09] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js
+[2024-09-08 00:40:09] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/tipsy/tipsy.js
+[2024-09-08 00:40:09] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/tipsy/tipsy.min.js
+[2024-09-08 00:40:09] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/waypoints/waypoints-for-editor.js
+[2024-09-08 00:40:09] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.js
+[2024-09-08 00:40:11] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js
+[2024-09-08 00:40:11] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/0e842fae60df2bcb2a30.bundle.min.js
+[2024-09-08 00:40:12] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/152486453d0e39071cdb.bundle.js
+[2024-09-08 00:40:12] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/2f08057553c95b827d30.bundle.min.js
+[2024-09-08 00:40:12] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/343f4c6fd2ee68785472.bundle.min.js
+[2024-09-08 00:40:12] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/46e544e5863270fc32f2.bundle.js
+[2024-09-08 00:40:13] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/4748df03726015eef04f.bundle.min.js
+[2024-09-08 00:40:13] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/5975ee58d21883e10a11.bundle.min.js
+[2024-09-08 00:40:13] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/5975ee58d21883e10a11.bundle.min.js.LICENSE.txt
+[2024-09-08 00:40:13] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/7dc832afac0230c2012d.bundle.min.js
+[2024-09-08 00:40:13] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/9c42cff515a6191fddaf.bundle.min.js
+[2024-09-08 00:40:13] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/a730ee9caa710006b307.bundle.js
+[2024-09-08 00:40:14] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/accordion.8799675460c73eb48972.bundle.min.js
+[2024-09-08 00:40:14] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/accordion.c16b88b2e8a0c50189bc.bundle.js
+[2024-09-08 00:40:14] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/admin-feedback.js
+[2024-09-08 00:40:14] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/admin-feedback.min.js
+[2024-09-08 00:40:14] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/admin-modules.js
+[2024-09-08 00:40:14] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/admin-modules.min.js
+[2024-09-08 00:40:14] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/admin-modules.min.js.LICENSE.txt
+[2024-09-08 00:40:14] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/admin-notifications.js
+[2024-09-08 00:40:15] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/admin-notifications.min.js
+[2024-09-08 00:40:15] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/admin-top-bar.js
+[2024-09-08 00:40:15] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/admin-top-bar.min.js
+[2024-09-08 00:40:15] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/admin.js
+[2024-09-08 00:40:15] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/admin.min.js
+[2024-09-08 00:40:15] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/admin.min.js.LICENSE.txt
+[2024-09-08 00:40:15] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/ai-admin.js
+[2024-09-08 00:40:15] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/ai-admin.min.js
+[2024-09-08 00:40:15] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/ai-admin.min.js.LICENSE.txt
+[2024-09-08 00:40:15] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/ai-gutenberg.js
+[2024-09-08 00:40:15] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/ai-gutenberg.min.js
+[2024-09-08 00:40:15] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/ai-gutenberg.min.js.LICENSE.txt
+[2024-09-08 00:40:15] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/ai-layout.js
+[2024-09-08 00:40:16] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/ai-layout.min.js
+[2024-09-08 00:40:16] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/ai-layout.min.js.LICENSE.txt
+[2024-09-08 00:40:16] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/ai-media-library.js
+[2024-09-08 00:40:16] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/ai-media-library.min.js
+[2024-09-08 00:40:16] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/ai-media-library.min.js.LICENSE.txt
+[2024-09-08 00:40:16] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/ai.js
+[2024-09-08 00:40:16] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/ai.min.js
+[2024-09-08 00:40:16] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/ai.min.js.LICENSE.txt
+[2024-09-08 00:40:16] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/alert.c3c6a3fdf4745bd26b7f.bundle.js
+[2024-09-08 00:40:17] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/alert.cbc2a0fee74ee3ed0419.bundle.min.js
+[2024-09-08 00:40:17] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/announcements-app.js
+[2024-09-08 00:40:17] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/announcements-app.min.js
+[2024-09-08 00:40:17] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/announcements-app.min.js.LICENSE.txt
+[2024-09-08 00:40:17] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/app-loader.js
+[2024-09-08 00:40:18] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/app-loader.min.js
+[2024-09-08 00:40:18] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/app-packages.js
+[2024-09-08 00:40:18] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/app-packages.min.js
+[2024-09-08 00:40:18] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/app-packages.min.js.LICENSE.txt
+[2024-09-08 00:40:18] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/app.js
+[2024-09-08 00:40:18] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/app.min.js
+[2024-09-08 00:40:18] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/app.min.js.LICENSE.txt
+[2024-09-08 00:40:18] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/b7931adecb98651a09c7.bundle.min.js
+[2024-09-08 00:40:19] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/beta-tester.js
+[2024-09-08 00:40:19] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/beta-tester.min.js
+[2024-09-08 00:40:19] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/common-modules.js
+[2024-09-08 00:40:19] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/common-modules.min.js
+[2024-09-08 00:40:19] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/common.js
+[2024-09-08 00:40:19] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/common.min.js
+[2024-09-08 00:40:19] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/common.min.js.LICENSE.txt
+[2024-09-08 00:40:19] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/container-converter.js
+[2024-09-08 00:40:20] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/container-converter.min.js
+[2024-09-08 00:40:20] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/container.a7f0a15dfa05df34e1f7.bundle.js
+[2024-09-08 00:40:20] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/container.c65a2a923085e1120e75.bundle.min.js
+[2024-09-08 00:40:20] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/counter.02cef29c589e742d4c8c.bundle.min.js
+[2024-09-08 00:40:20] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/counter.3f74a246dff765f39aea.bundle.js
+[2024-09-08 00:40:20] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/dev-tools.js
+[2024-09-08 00:40:20] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/dev-tools.min.js
+[2024-09-08 00:40:20] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/e-home-screen.js
+[2024-09-08 00:40:21] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/e-home-screen.min.js
+[2024-09-08 00:40:21] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/e-home-screen.min.js.LICENSE.txt
+[2024-09-08 00:40:21] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/e3f753621bf9be55ec4d.bundle.js
+[2024-09-08 00:40:21] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/e8a7573e654d921656ab.bundle.js
+[2024-09-08 00:40:21] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/editor-document.js
+[2024-09-08 00:40:21] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/editor-document.min.js
+[2024-09-08 00:40:21] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/editor-environment-v2.js
+[2024-09-08 00:40:21] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/editor-environment-v2.min.js
+[2024-09-08 00:40:21] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/editor-loader-v1.js
+[2024-09-08 00:40:21] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/editor-loader-v1.min.js
+[2024-09-08 00:40:22] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/editor-loader-v2.js
+[2024-09-08 00:40:22] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/editor-loader-v2.min.js
+[2024-09-08 00:40:22] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/editor-modules.js
+[2024-09-08 00:40:22] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/editor-modules.min.js
+[2024-09-08 00:40:22] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/editor-modules.min.js.LICENSE.txt
+[2024-09-08 00:40:22] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/editor-notifications.js
+[2024-09-08 00:40:22] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/editor-notifications.min.js
+[2024-09-08 00:40:23] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/editor.js
+[2024-09-08 00:40:23] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/editor.min.js
+[2024-09-08 00:40:23] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/editor.min.js.LICENSE.txt
+[2024-09-08 00:40:23] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/element-manager-admin.js
+[2024-09-08 00:40:23] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/element-manager-admin.min.js
+[2024-09-08 00:40:23] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/element-manager-admin.min.js.LICENSE.txt
+[2024-09-08 00:40:23] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/elementor-admin-bar.js
+[2024-09-08 00:40:23] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js
+[2024-09-08 00:40:23] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/f45f06ab7bc79ea02cfc.bundle.js
+[2024-09-08 00:40:23] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/f634673e5824ceb13f3d.bundle.js
+[2024-09-08 00:40:24] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/fa0cbd4c7b6a8ad83224.bundle.js
+[2024-09-08 00:40:24] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/fd6a00ae23a1bc2c6190.bundle.js
+[2024-09-08 00:40:24] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/frontend-modules.js
+[2024-09-08 00:40:24] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/frontend-modules.min.js
+[2024-09-08 00:40:26] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/frontend.js
+[2024-09-08 00:40:26] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/frontend.min.js
+[2024-09-08 00:40:26] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/gutenberg.js
+[2024-09-08 00:40:26] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/gutenberg.min.js
+[2024-09-08 00:40:26] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/image-carousel.4455c6362492d9067512.bundle.min.js
+[2024-09-08 00:40:26] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/image-carousel.9399f19d95d7300cbc2e.bundle.js
+[2024-09-08 00:40:28] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/import-export-admin.js
+[2024-09-08 00:40:30] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/import-export-admin.min.js
+[2024-09-08 00:40:30] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/kit-elements-defaults-editor.js
+[2024-09-08 00:40:30] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/kit-elements-defaults-editor.min.js
+[2024-09-08 00:40:30] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/kit-elements-defaults-editor.min.js.LICENSE.txt
+[2024-09-08 00:40:30] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/kit-library.1f8d31888dc9d19dd031.bundle.min.js
+[2024-09-08 00:40:32] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/kit-library.ac1a4cd5deae5526ce49.bundle.js
+[2024-09-08 00:40:32] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/lightbox.26bf6b6c4232d8789c0e.bundle.min.js
+[2024-09-08 00:40:32] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/lightbox.62507767544e8d455e1b.bundle.js
+[2024-09-08 00:40:32] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/media-hints.js
+[2024-09-08 00:40:32] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/media-hints.min.js
+[2024-09-08 00:40:32] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/nested-accordion.js
+[2024-09-08 00:40:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/nested-accordion.min.js
+[2024-09-08 00:40:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/nested-accordion.min.js.LICENSE.txt
+[2024-09-08 00:40:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/nested-elements.js
+[2024-09-08 00:40:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/nested-elements.min.js
+[2024-09-08 00:40:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/nested-tabs.js
+[2024-09-08 00:40:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/nested-tabs.min.js
+[2024-09-08 00:40:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/nested-tabs.min.js.LICENSE.txt
+[2024-09-08 00:40:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/new-template.js
+[2024-09-08 00:40:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/new-template.min.js
+[2024-09-08 00:40:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/notes.js
+[2024-09-08 00:40:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/notes.min.js
+[2024-09-08 00:40:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/onboarding.001cbdc1993cabe048db.bundle.js
+[2024-09-08 00:40:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/onboarding.026ae7e20c953c6cf3c3.bundle.min.js
+[2024-09-08 00:40:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor/editor.asset.php
+[2024-09-08 00:40:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor/editor.js
+[2024-09-08 00:40:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor/editor.js.LICENSE.txt
+[2024-09-08 00:40:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor/editor.min.js
+[2024-09-08 00:40:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor/editor.strings.js
+[2024-09-08 00:40:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-app-bar/editor-app-bar.asset.php
+[2024-09-08 00:40:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-app-bar/editor-app-bar.js
+[2024-09-08 00:40:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-app-bar/editor-app-bar.js.LICENSE.txt
+[2024-09-08 00:40:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-app-bar/editor-app-bar.min.js
+[2024-09-08 00:40:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-app-bar/editor-app-bar.strings.js
+[2024-09-08 00:40:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-app-bar-ui/editor-app-bar-ui.asset.php
+[2024-09-08 00:40:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-app-bar-ui/editor-app-bar-ui.js
+[2024-09-08 00:40:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-app-bar-ui/editor-app-bar-ui.js.LICENSE.txt
+[2024-09-08 00:40:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-app-bar-ui/editor-app-bar-ui.min.js
+[2024-09-08 00:40:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-app-bar-ui/editor-app-bar-ui.strings.js
+[2024-09-08 00:40:36] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-documents/editor-documents.asset.php
+[2024-09-08 00:40:36] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-documents/editor-documents.js
+[2024-09-08 00:40:36] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-documents/editor-documents.js.LICENSE.txt
+[2024-09-08 00:40:36] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-documents/editor-documents.min.js
+[2024-09-08 00:40:36] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-documents/editor-documents.strings.js
+[2024-09-08 00:40:36] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-panels/editor-panels.asset.php
+[2024-09-08 00:40:36] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-panels/editor-panels.js
+[2024-09-08 00:40:36] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-panels/editor-panels.js.LICENSE.txt
+[2024-09-08 00:40:38] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-panels/editor-panels.min.js
+[2024-09-08 00:40:38] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-panels/editor-panels.strings.js
+[2024-09-08 00:40:40] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-responsive/editor-responsive.asset.php
+[2024-09-08 00:40:40] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-responsive/editor-responsive.js
+[2024-09-08 00:40:40] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-responsive/editor-responsive.js.LICENSE.txt
+[2024-09-08 00:40:41] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-responsive/editor-responsive.min.js
+[2024-09-08 00:40:41] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-responsive/editor-responsive.strings.js
+[2024-09-08 00:40:41] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-site-navigation/editor-site-navigation.asset.php
+[2024-09-08 00:40:41] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-site-navigation/editor-site-navigation.js
+[2024-09-08 00:40:41] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-site-navigation/editor-site-navigation.js.LICENSE.txt
+[2024-09-08 00:40:41] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-site-navigation/editor-site-navigation.min.js
+[2024-09-08 00:40:42] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js
+[2024-09-08 00:40:42] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-v1-adapters/editor-v1-adapters.asset.php
+[2024-09-08 00:40:42] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-v1-adapters/editor-v1-adapters.js
+[2024-09-08 00:40:42] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-v1-adapters/editor-v1-adapters.js.LICENSE.txt
+[2024-09-08 00:40:43] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-v1-adapters/editor-v1-adapters.min.js
+[2024-09-08 00:40:43] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/editor-v1-adapters/editor-v1-adapters.strings.js
+[2024-09-08 00:40:43] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/env/env.asset.php
+[2024-09-08 00:40:43] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/env/env.js
+[2024-09-08 00:40:43] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/env/env.js.LICENSE.txt
+[2024-09-08 00:40:43] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/env/env.min.js
+[2024-09-08 00:40:44] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/env/env.strings.js
+[2024-09-08 00:40:44] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/icons/icons.asset.php
+[2024-09-08 00:40:44] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/icons/icons.js
+[2024-09-08 00:40:44] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/icons/icons.js.LICENSE.txt
+[2024-09-08 00:40:44] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/icons/icons.min.js
+[2024-09-08 00:40:44] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/icons/icons.strings.js
+[2024-09-08 00:40:44] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/locations/locations.asset.php
+[2024-09-08 00:40:45] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/locations/locations.js
+[2024-09-08 00:40:45] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/locations/locations.js.LICENSE.txt
+[2024-09-08 00:40:45] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/locations/locations.min.js
+[2024-09-08 00:40:45] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/locations/locations.strings.js
+[2024-09-08 00:40:45] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/query/query.asset.php
+[2024-09-08 00:40:45] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/query/query.js
+[2024-09-08 00:40:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/query/query.js.LICENSE.txt
+[2024-09-08 00:40:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/query/query.min.js
+[2024-09-08 00:40:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/query/query.strings.js
+[2024-09-08 00:40:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/store/store.asset.php
+[2024-09-08 00:40:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/store/store.js
+[2024-09-08 00:40:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/store/store.js.LICENSE.txt
+[2024-09-08 00:40:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/store/store.min.js
+[2024-09-08 00:40:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/store/store.min.js.LICENSE.txt
+[2024-09-08 00:40:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/store/store.strings.js
+[2024-09-08 00:40:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/ui/ui.asset.php
+[2024-09-08 00:40:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/ui/ui.js
+[2024-09-08 00:40:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/ui/ui.js.LICENSE.txt
+[2024-09-08 00:40:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/ui/ui.min.js
+[2024-09-08 00:40:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/ui/ui.min.js.LICENSE.txt
+[2024-09-08 00:40:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/packages/ui/ui.strings.js
+[2024-09-08 00:40:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/progress.6d15c16f0f5c4792940f.bundle.js
+[2024-09-08 00:40:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/progress.985f012a6336ab21cb44.bundle.min.js
+[2024-09-08 00:40:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/responsive-bar.js
+[2024-09-08 00:40:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/responsive-bar.min.js
+[2024-09-08 00:40:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/styleguide-app-initiator.js
+[2024-09-08 00:40:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/styleguide-app-initiator.min.js
+[2024-09-08 00:40:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/styleguide-app-initiator.min.js.LICENSE.txt
+[2024-09-08 00:40:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/styleguide.js
+[2024-09-08 00:40:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/styleguide.min.js
+[2024-09-08 00:40:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/tabs.520bc2ed4560c561029e.bundle.js
+[2024-09-08 00:40:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/tabs.c2af5be7f9cb3cdcf3d5.bundle.min.js
+[2024-09-08 00:40:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js
+[2024-09-08 00:40:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/text-editor.2f2f7e0ea1e16387a004.bundle.js
+[2024-09-08 00:40:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/text-path.2bc8a9cd0e50cf1a5a9c.bundle.min.js
+[2024-09-08 00:40:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/text-path.2bc8a9cd0e50cf1a5a9c.bundle.min.js.LICENSE.txt
+[2024-09-08 00:40:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/text-path.fa44919c1abfe9244186.bundle.js
+[2024-09-08 00:40:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/toggle.31881477c45ff5cf9d4d.bundle.min.js
+[2024-09-08 00:40:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/toggle.d79746a764407a0828ee.bundle.js
+[2024-09-08 00:40:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/video.78c625e89ab767d621c5.bundle.min.js
+[2024-09-08 00:40:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/video.817bd6a65a1542503aac.bundle.js
+[2024-09-08 00:40:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/web-cli.js
+[2024-09-08 00:40:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/web-cli.min.js
+[2024-09-08 00:40:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/web-cli.min.js.LICENSE.txt
+[2024-09-08 00:40:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/webpack.runtime.js
+[2024-09-08 00:40:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js
+[2024-09-08 00:40:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/wp-audio.75f0ced143febb8cd31a.bundle.min.js
+[2024-09-08 00:40:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/js/wp-audio.b8efdc046bc9df72a075.bundle.js
+[2024-09-08 00:40:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/announcement.png
+[2024-09-08 00:40:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/app/onboarding/Blank_Canvas.svg
+[2024-09-08 00:40:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/app/onboarding/Blank_Preview.jpg
+[2024-09-08 00:40:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/app/onboarding/Illustration_Account.svg
+[2024-09-08 00:40:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/app/onboarding/Illustration_Hello.svg
+[2024-09-08 00:40:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/app/onboarding/Illustration_Setup.svg
+[2024-09-08 00:40:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/app/onboarding/Library.svg
+[2024-09-08 00:40:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/app/site-editor/archive.svg
+[2024-09-08 00:40:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/app/site-editor/error-404.svg
+[2024-09-08 00:40:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/app/site-editor/footer.svg
+[2024-09-08 00:40:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/app/site-editor/header.svg
+[2024-09-08 00:40:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/app/site-editor/product.svg
+[2024-09-08 00:40:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/app/site-editor/products.svg
+[2024-09-08 00:40:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/app/site-editor/search-results.svg
+[2024-09-08 00:40:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/app/site-editor/single-page.svg
+[2024-09-08 00:40:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/app/site-editor/single-post.svg
+[2024-09-08 00:40:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/blur.png
+[2024-09-08 00:40:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/containers-announcement.png
+[2024-09-08 00:40:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/contrast.png
+[2024-09-08 00:40:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/eyedropper.svg
+[2024-09-08 00:40:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/go-pro-wp-dashboard.svg
+[2024-09-08 00:40:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/go-pro.svg
+[2024-09-08 00:40:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/information.svg
+[2024-09-08 00:40:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/library-connect/left-1.png
+[2024-09-08 00:40:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/library-connect/left-2.png
+[2024-09-08 00:40:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/library-connect/right-1.png
+[2024-09-08 00:40:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/library-connect/right-2.png
+[2024-09-08 00:40:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/logo-icon.png
+[2024-09-08 00:40:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/logo-panel.svg
+[2024-09-08 00:40:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/logo-platform.svg
+[2024-09-08 00:40:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/no-search-results.svg
+[2024-09-08 00:40:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/placeholder.png
+[2024-09-08 00:40:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/images/unlock-sticky.svg
+[2024-09-08 00:40:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/arrow-negative.svg
+[2024-09-08 00:40:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/arrow.svg
+[2024-09-08 00:40:57] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/book-negative.svg
+[2024-09-08 00:40:57] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/book.svg
+[2024-09-08 00:40:57] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/clouds-negative.svg
+[2024-09-08 00:40:57] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/clouds.svg
+[2024-09-08 00:40:57] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/curve-asymmetrical-negative.svg
+[2024-09-08 00:40:57] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/curve-asymmetrical.svg
+[2024-09-08 00:40:57] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/curve-negative.svg
+[2024-09-08 00:40:58] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/curve.svg
+[2024-09-08 00:40:58] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/drops-negative.svg
+[2024-09-08 00:40:58] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/drops.svg
+[2024-09-08 00:40:58] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/mountains.svg
+[2024-09-08 00:40:58] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/opacity-fan.svg
+[2024-09-08 00:40:58] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/opacity-tilt.svg
+[2024-09-08 00:40:58] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/pyramids-negative.svg
+[2024-09-08 00:40:58] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/pyramids.svg
+[2024-09-08 00:40:58] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/split-negative.svg
+[2024-09-08 00:40:58] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/split.svg
+[2024-09-08 00:40:58] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/tilt.svg
+[2024-09-08 00:40:58] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/triangle-asymmetrical-negative.svg
+[2024-09-08 00:41:01] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/triangle-asymmetrical.svg
+[2024-09-08 00:41:01] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/triangle-negative.svg
+[2024-09-08 00:41:01] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/triangle.svg
+[2024-09-08 00:41:01] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/wave-brush.svg
+[2024-09-08 00:41:01] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/waves-negative.svg
+[2024-09-08 00:41:01] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/waves-pattern.svg
+[2024-09-08 00:41:02] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/waves.svg
+[2024-09-08 00:41:02] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/shapes/zigzag.svg
+[2024-09-08 00:41:02] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/mask-shapes/blob.svg
+[2024-09-08 00:41:02] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/mask-shapes/circle.svg
+[2024-09-08 00:41:02] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/mask-shapes/flower.svg
+[2024-09-08 00:41:02] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/mask-shapes/hexagon.svg
+[2024-09-08 00:41:03] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/mask-shapes/sketch.svg
+[2024-09-08 00:41:03] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/mask-shapes/triangle.svg
+[2024-09-08 00:41:05] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/svg-paths/arc.svg
+[2024-09-08 00:41:05] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/svg-paths/circle.svg
+[2024-09-08 00:41:05] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/svg-paths/line.svg
+[2024-09-08 00:41:05] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/svg-paths/oval.svg
+[2024-09-08 00:41:05] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/svg-paths/spiral.svg
+[2024-09-08 00:41:05] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/svg-paths/wave.svg
+[2024-09-08 00:41:05] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/elementor/assets/data/responsive-widgets.json
+[2024-09-08 00:41:08] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/lib/dom-to-image/js/dom-to-image.js
+[2024-09-08 00:41:08] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/lib/dom-to-image/js/dom-to-image.min.js
+[2024-09-08 00:41:08] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/lib/font-awesome-pro/brands.js
+[2024-09-08 00:41:08] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/lib/font-awesome-pro/duotone.js
+[2024-09-08 00:41:08] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/lib/font-awesome-pro/light.js
+[2024-09-08 00:41:08] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/lib/font-awesome-pro/regular.js
+[2024-09-08 00:41:08] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/lib/font-awesome-pro/solid.js
+[2024-09-08 00:41:08] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/lib/html2canvas/js/html2canvas.js
+[2024-09-08 00:41:09] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/lib/html2canvas/js/html2canvas.min.js
+[2024-09-08 00:41:09] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/lib/instant-page/instant-page.js
+[2024-09-08 00:41:09] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/lib/instant-page/instant-page.min.js
+[2024-09-08 00:41:09] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/lib/lottie/lottie.js
+[2024-09-08 00:41:09] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/lib/lottie/lottie.min.js
+[2024-09-08 00:41:09] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/lib/smartmenus/jquery.smartmenus.js
+[2024-09-08 00:41:09] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/lib/smartmenus/jquery.smartmenus.min.js
+[2024-09-08 00:41:09] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/lib/sticky/jquery.sticky.js
+[2024-09-08 00:41:09] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/lib/sticky/jquery.sticky.min.js
+[2024-09-08 00:41:09] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/60745ddf42fde6647dbc.bundle.min.js
+[2024-09-08 00:41:09] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/60745ddf42fde6647dbc.bundle.min.js.LICENSE.txt
+[2024-09-08 00:41:10] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/98217e0c00e1f53421ef.bundle.js
+[2024-09-08 00:41:10] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/admin.js
+[2024-09-08 00:41:10] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/admin.min.js
+[2024-09-08 00:41:10] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/ajax-pagination.a8dae0f5699fe9733e7d.bundle.min.js
+[2024-09-08 00:41:10] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/ajax-pagination.bc400e6cb24a14a2ea97.bundle.js
+[2024-09-08 00:41:10] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/animated-headline.3efc6517c2a055f6c242.bundle.min.js
+[2024-09-08 00:41:10] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/animated-headline.e4c2ed3934d0df18c40a.bundle.js
+[2024-09-08 00:41:10] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/app.js
+[2024-09-08 00:41:10] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/app.min.js
+[2024-09-08 00:41:10] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/archive-posts.0aae8c3bd7d196797b6c.bundle.js
+[2024-09-08 00:41:10] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/archive-posts.d30c917134774f65dd6d.bundle.min.js
+[2024-09-08 00:41:10] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/carousel.998a291abf70435fd698.bundle.js
+[2024-09-08 00:41:10] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/carousel.9b02b45d7826c1c48f33.bundle.min.js
+[2024-09-08 00:41:11] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/cf897f631f64e6c79d99.bundle.min.js
+[2024-09-08 00:41:11] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/code-highlight.28a979661569ddbbf60d.bundle.min.js
+[2024-09-08 00:41:11] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/code-highlight.8b676d9a001f56fb77fa.bundle.js
+[2024-09-08 00:41:11] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/contact-buttons-var-10.5ceb4ecd2152a5f8b96e.bundle.js
+[2024-09-08 00:41:11] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/contact-buttons-var-10.b255e00e3feea456660f.bundle.min.js
+[2024-09-08 00:41:11] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/contact-buttons.09c69d0d12aa67f9133e.bundle.min.js
+[2024-09-08 00:41:11] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/contact-buttons.5f4d4ece4d991cd56a20.bundle.js
+[2024-09-08 00:41:11] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/countdown.60cf02eaf22d71d83f3d.bundle.js
+[2024-09-08 00:41:11] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/countdown.be941c879efa861dbbfa.bundle.min.js
+[2024-09-08 00:41:13] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/custom-code.js
+[2024-09-08 00:41:13] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/custom-code.min.js
+[2024-09-08 00:41:13] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/display-conditions.js
+[2024-09-08 00:41:13] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/display-conditions.min.js
+[2024-09-08 00:41:13] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/editor.js
+[2024-09-08 00:41:13] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/editor.min.js
+[2024-09-08 00:41:14] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/editor.min.js.LICENSE.txt
+[2024-09-08 00:41:16] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/ef74929d267aeb27fc93.bundle.js
+[2024-09-08 00:41:16] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/elements-handlers.js
+[2024-09-08 00:41:18] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/elements-handlers.min.js
+[2024-09-08 00:41:18] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/form-submission-admin.js
+[2024-09-08 00:41:20] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/form-submission-admin.min.js
+[2024-09-08 00:41:20] [class-elementor-pro-integration.php:66] Adding elementor bundle asset to queue: http://localhost/palestinethreads/wp-content/plugins/pro-elements/assets/js/form.97ef0fd396471477cc8e.bundle.js
+[2024-09-08 00:41:24] [class-ss-archive-creation-job.php:384] Error: (1) Maximum execution time of 120 seconds exceeded in <b>C:\xampp\htdocs\palestinethreads\wp-includes\class-wpdb.php</b> on line <b>2344</b>
+[2024-09-08 00:41:24] [class-ss-archive-creation-job.php:324] Status message: [error] Error: (1) Maximum execution time of 120 seconds exceeded in <b>C:\xampp\htdocs\palestinethreads\wp-includes\class-wpdb.php</b> on line <b>2344</b>
